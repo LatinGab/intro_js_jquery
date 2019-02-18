@@ -1,0 +1,28 @@
+<!--
+  Ejercicio:
+  Mostrar una alerta cada vez que se haga clic sobre un párrafo
+-->
+
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+</head>
+
+<body>
+  <p> clic !! </p>
+  <script type="text/javascript">
+    $(p).on("click", function() {
+      alert("hola")
+    })
+  </script>
+  <p> clic !! </p>
+  <p> clic !! </p>
+  <h3> no clic !! </h3>
+  <p> clic !! </p>
+</body>
+
+</html>

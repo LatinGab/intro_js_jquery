@@ -1,0 +1,28 @@
+<!--
+  El siguiente código no funciona.
+  Identifica el error con el inspector de elementos
+  Agrega jQuery
+  Utiliza el inspector de elementos para asegurar que se agregó la clase
+  Agrega en el head la clase CSS para que el color del texto sea rojo
+-->
+
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <!--jquery 3.3.1-->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<style media="screen">
+  .red {
+    color: red;
+  }
+</style>
+  </head>
+  <body>
+    <p> hola </p>
+    <script type="text/javascript">
+      $("p").addClass("red");
+    </script>
+  </body>
+</html>
